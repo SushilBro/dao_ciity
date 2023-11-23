@@ -14,6 +14,7 @@ const ServiceDetails = (service_id) => {
     // Handle the case when the service is not found
     return <div>Service not found</div>;
   }
+  // check if user has access
    async function Check_Access() {
     const network= new StacksMocknet();
     const senderAddress = userSession.loadUserData().profile.stxAddress.testnet;

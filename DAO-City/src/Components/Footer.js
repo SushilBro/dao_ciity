@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <div className="footer-middle">&copy; {new Date().getFullYear()} DAO City. All rights reserved.</div>
       <div className="footer-right"></div>
-    </footer>
+    </footer>  
   );
 };
 
